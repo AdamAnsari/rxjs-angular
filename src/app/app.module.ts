@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { CustomObservableComponent } from './modules/custom-observable/custom-observable.component';
 import { HomeComponent } from './modules/home/home.component';
 import { HeaderComponent } from './header/header.component';
+import { OfComponent } from './modules/operator/of/of.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CustomObservableComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    OfComponent
   ],
   imports: [
     BrowserModule,
