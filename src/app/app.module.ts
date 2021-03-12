@@ -7,6 +7,7 @@ import { CustomObservableComponent } from './modules/custom-observable/custom-ob
 import { HomeComponent } from './modules/home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { OfComponent } from './modules/operator/of/of.component';
+import { AjaxComponent } from './modules/operator/ajax/ajax.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { OfComponent } from './modules/operator/of/of.component';
     CustomObservableComponent,
     HomeComponent,
     HeaderComponent,
-    OfComponent
+    OfComponent,
+    AjaxComponent
   ],
   imports: [
     BrowserModule,
