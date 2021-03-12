@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -10,7 +11,13 @@ export class CustomObservableComponent implements OnInit {
   customVar1:any;
   customVar2:any[] = [];
 
-  constructor() { }
+  constructor(
+    private router: Router
+  ) { }
+
+  goBack() {
+    this.router.navigate(['/'])
+  }
 
   ngOnInit(): void {
 
