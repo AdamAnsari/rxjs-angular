@@ -1,0 +1,35 @@
+<button (click)="goBack()" 
+  style="float: right; background-color: red; color: whitesmoke; border: none; padding: 10px; cursor: pointer;">
+  GoTo HomePage</button>
+<h2>INPUT: EXAMPLE 1</h2>
+<h2>FROM Operator</h2>
+<p>
+  var arr = [1,2,3,4];
+  var fromObs = from(arr);
+</p>
+<p>
+  this.subs = fromObs.subscribe(res => 
+    console.log(res);
+  )}
+</p>
+
+<p><strong>OUTPUT</strong>: </p>
+<ul *ngFor="let d of dataArr; let i=index;">
+  <li>{{ d }}</li>
+</ul>
+<hr>
+<h2>INPUT: EXAMPLE 2</h2>
+<h2>FROM EVENT Operator</h2>
+<p>
+  let btnVar = document.getElementById('btn');
+    let btn_clicks = fromEvent(btnVar, 'click');
+    let intervalVar = interval(500);
+    let btn_obs = intervalVar.pipe(buffer(btn_clicks));
+    btn_obs.subscribe(res => 
+      console.log(res);
+    })
+</p>
+<p><strong>OUTPUT</strong>: {{ fromEventData }} </p>
+
+<button id="btn">CLICK</button>
+

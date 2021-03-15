@@ -8,6 +8,7 @@ import { HomeComponent } from './modules/home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { OfComponent } from './modules/operator/of/of.component';
 import { AjaxComponent } from './modules/operator/ajax/ajax.component';
+import { FromComponent } from './modules/operator/from/from.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AjaxComponent } from './modules/operator/ajax/ajax.component';
     HomeComponent,
     HeaderComponent,
     OfComponent,
-    AjaxComponent
+    AjaxComponent,
+    FromComponent
   ],
   imports: [
     BrowserModule,
