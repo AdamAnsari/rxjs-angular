@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { OfComponent } from './modules/operator/of/of.component';
 import { AjaxComponent } from './modules/operator/ajax/ajax.component';
 import { FromComponent } from './modules/operator/from/from.component';
+import { CountComponent } from './modules/operator/count/count.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FromComponent } from './modules/operator/from/from.component';
     HeaderComponent,
     OfComponent,
     AjaxComponent,
-    FromComponent
+    FromComponent,
+    CountComponent
   ],
   imports: [
     BrowserModule,

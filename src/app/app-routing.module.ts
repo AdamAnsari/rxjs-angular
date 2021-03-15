@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { CustomObservableComponent } from './modules/custom-observable/custom-observable.component';
 import { HomeComponent } from './modules/home/home.component';
 import { AjaxComponent } from './modules/operator/ajax/ajax.component';
+import { CountComponent } from './modules/operator/count/count.component';
 import { FromComponent } from './modules/operator/from/from.component';
 import { OfComponent } from './modules/operator/of/of.component';
 
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'of-operator', component: OfComponent },
   { path: 'ajax-operator', component: AjaxComponent },
   { path: 'from-operator', component: FromComponent },
+  { path: 'range-operator', component: CountComponent },
 
   { path: '**', component: HomeComponent }
 ];
