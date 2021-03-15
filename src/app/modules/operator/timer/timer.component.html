@@ -1,0 +1,18 @@
+<button (click)="goBack()" 
+  style="float: right; background-color: red; color: whitesmoke; border: none; padding: 10px; cursor: pointer;">
+  GoTo HomePage</button>
+
+<h2>TIMER Operator: Example 1</h2>
+<p>const singleParamTimer = timer(1000);</p>
+<p><strong>OUTPUT</strong>: <span>
+  {{ data1 }}
+</span></p>
+<hr>
+<h2>TIMER Operator: Example 2</h2>
+<p>const doubleParamTimer = timer(1000, 2000);</p>
+<p><strong>OUTPUT</strong>: </p>
+<ul *ngFor="let d of data2; let i=index;">
+  <li>
+    {{ d }}
+  </li>
+</ul>

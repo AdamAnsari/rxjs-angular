@@ -7,6 +7,7 @@ import { CountComponent } from './modules/operator/count/count.component';
 import { FromComponent } from './modules/operator/from/from.component';
 import { OfComponent } from './modules/operator/of/of.component';
 import { ThrowErrorComponent } from './modules/operator/throw-error/throw-error.component';
+import { TimerComponent } from './modules/operator/timer/timer.component';
 
 
 const routes: Routes = [
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'from-operator', component: FromComponent },
   { path: 'range-operator', component: CountComponent },
   { path: 'throw-error-operator', component: ThrowErrorComponent },
+  { path: 'timer-operator', component: TimerComponent },
 
   { path: '**', component: HomeComponent }
 ];
