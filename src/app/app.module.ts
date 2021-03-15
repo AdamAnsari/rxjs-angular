@@ -10,6 +10,7 @@ import { OfComponent } from './modules/operator/of/of.component';
 import { AjaxComponent } from './modules/operator/ajax/ajax.component';
 import { FromComponent } from './modules/operator/from/from.component';
 import { CountComponent } from './modules/operator/count/count.component';
+import { ThrowErrorComponent } from './modules/operator/throw-error/throw-error.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CountComponent } from './modules/operator/count/count.component';
     OfComponent,
     AjaxComponent,
     FromComponent,
-    CountComponent
+    CountComponent,
+    ThrowErrorComponent
   ],
   imports: [
     BrowserModule,
