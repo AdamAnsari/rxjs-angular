@@ -5,6 +5,7 @@ import { HomeComponent } from './modules/home/home.component';
 import { AjaxComponent } from './modules/operator/ajax/ajax.component';
 import { CountComponent } from './modules/operator/count/count.component';
 import { FromComponent } from './modules/operator/from/from.component';
+import { MathematicalOperatorsComponent } from './modules/operator/mathematical-operators/mathematical-operators.component';
 import { OfComponent } from './modules/operator/of/of.component';
 import { ThrowErrorComponent } from './modules/operator/throw-error/throw-error.component';
 import { TimerComponent } from './modules/operator/timer/timer.component';
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'range-operator', component: CountComponent },
   { path: 'throw-error-operator', component: ThrowErrorComponent },
   { path: 'timer-operator', component: TimerComponent },
+  { path: 'mathematical-operators', component: MathematicalOperatorsComponent },
 
   { path: '**', component: HomeComponent }
 ];

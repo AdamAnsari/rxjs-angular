@@ -12,6 +12,7 @@ import { FromComponent } from './modules/operator/from/from.component';
 import { CountComponent } from './modules/operator/count/count.component';
 import { ThrowErrorComponent } from './modules/operator/throw-error/throw-error.component';
 import { TimerComponent } from './modules/operator/timer/timer.component';
+import { MathematicalOperatorsComponent } from './modules/operator/mathematical-operators/mathematical-operators.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TimerComponent } from './modules/operator/timer/timer.component';
     FromComponent,
     CountComponent,
     ThrowErrorComponent,
-    TimerComponent
+    TimerComponent,
+    MathematicalOperatorsComponent
   ],
   imports: [
     BrowserModule,

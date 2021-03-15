@@ -1,0 +1,22 @@
+<button (click)="goBack()" 
+  style="float: right; background-color: red; color: whitesmoke; border: none; padding: 10px; cursor: pointer;">
+  GoTo HomePage</button>
+<h1>MATHEMATICAL OPERATORS</h1>
+
+<h2>1. COUNT Operator</h2>
+<p><strong>INPUT</strong>: const countArr = from([1,2,3,4,5]).pipe(count());</p>
+<p><strong>OUTPUT</strong>: {{ countData }}</p>
+<hr>
+<h2>2. MIN Operator</h2>
+<p><strong>INPUT</strong>: const minArr = from([1,2,3,4,5]).pipe(min());</p>
+<p><strong>OUTPUT</strong>: {{ minData }}</p>
+<hr>
+<h2>3. MAX Operator</h2>
+<p><strong>INPUT</strong>: const maxArr = from([1,2,3,4,5]).pipe(max());</p>
+<p><strong>OUTPUT</strong>: {{ maxData }}</p>
+<hr>
+<h2>4. REDUCE Operator</h2>
+<p><strong>INPUT</strong>: const reduceArr = from([100, 200, 300]).pipe(reduce(acc, item) => acc+item, <strong>0</strong>)</p>
+<p><strong>OUTPUT</strong>: {{ reduceData1 }}</p>
+<p><strong>INPUT</strong>: const reduceArr = from([100, 200, 300]).pipe(reduce(acc, item) => acc+item, <strong>10</strong>)</p>
+<p><strong>OUTPUT</strong>: {{ reduceData2 }}</p>
